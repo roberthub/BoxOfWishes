@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"	
+		     x:Class="BoxOfWishes.Dashboard"
+		     xmlns:resources="clr-namespace:BoxOfWishes.Localization;assembly=Glider_Log">
+	<ContentPage.Resources>
+		<ResourceDictionary>
+                     <LayoutOptions x:Key="horizontalOptions"
+                                    Alignment="Center" />
+		</ResourceDictionary>
+	</ContentPage.Resources>
+	<ContentPage.Content>
+                 <StackLayout>
+                       <Label Text="{resources:Translate Dashboard_Title}" HorizontalOptions="{StaticResource horizontalOptions}" />
+                       <Button Text="{resources:Translate Dashboard_New}" />
+                       <Button Text="{resources:Translate Dashboard_Browse}" />
+                       <Button Text="{resources:Translate Dashboard_Settings}" />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"	
+		     x:Class="Glider_Log.Dashboard"
+		     xmlns:resources="clr-namespace:Glider_Log.Resources;assembly=Glider_Log">
+	<ContentPage.Resources>
+		<ResourceDictionary>
+                     <LayoutOptions x:Key="horizontalOptions"
+                                    Alignment="Center" />
+		</ResourceDictionary>
+	</ContentPage.Resources>
+	<ContentPage.Content>
+                 <StackLayout>
+                       <Label Text="{resources:Translate Dashboard_Title}" HorizontalOptions="{StaticResource horizontalOptions}" />
+                       <Button Text="{resources:Translate Dashboard_New}" />
+                       <Button Text="{resources:Translate Dashboard_Browse}" />
+                       <Button Text="{resources:Translate Dashboard_Settings}" />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

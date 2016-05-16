@@ -1,0 +1,11 @@
+C:\Projects\Mobile Apps\WishBox\WishBox\WishBox.Windows\obj\Debug\WishBox.Windows.csprojResolveAssemblyReference.cache
+C:\Projects\Mobile Apps\WishBox\WishBox\WishBox.Windows\obj\Debug\App.g.i.cs
+C:\Projects\Mobile Apps\WishBox\WishBox\WishBox.Windows\obj\Debug\App.g.cs
+C:\Projects\Mobile Apps\WishBox\WishBox\WishBox.Windows\obj\Debug\MainPage.g.i.cs
+C:\Projects\Mobile Apps\WishBox\WishBox\WishBox.Windows\obj\Debug\MainPage.g.cs
+C:\Projects\Mobile Apps\WishBox\WishBox\WishBox.Windows\obj\Debug\XamlTypeInfo.g.cs
+C:\Projects\Mobile Apps\WishBox\WishBox\WishBox.Windows\obj\Debug\App.xaml
+C:\Projects\Mobile Apps\WishBox\WishBox\WishBox.Windows\obj\Debug\MainPage.xaml
+C:\Projects\Mobile Apps\WishBox\WishBox\WishBox.Windows\obj\Debug\App.xbf
+C:\Projects\Mobile Apps\WishBox\WishBox\WishBox.Windows\obj\Debug\MainPage.xbf
+C:\Projects\Mobile Apps\WishBox\WishBox\WishBox.Windows\obj\Debug\XamlSaveStateFile.xml

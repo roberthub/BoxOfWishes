@@ -1,0 +1,4 @@
+C:\Projects\Mobile Apps\WishBox\WishBox\WishBox\obj\Debug\WishBox.Localization.AppResources.resources
+C:\Projects\Mobile Apps\WishBox\WishBox\WishBox\obj\Debug\WishBox.Localization.AppResources.de.resources
+C:\Projects\Mobile Apps\WishBox\WishBox\WishBox\obj\Debug\WishBox.Localization.AppResources.fr.resources
+C:\Projects\Mobile Apps\WishBox\WishBox\WishBox\obj\Debug\WishBox.csproj.GenerateResource.Cache
