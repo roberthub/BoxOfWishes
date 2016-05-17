@@ -120,6 +120,9 @@
   <data name="AddressLabel" xml:space="preserve">
     <value>Adress</value>
   </data>
+  <data name="BOWInfoLabel" xml:space="preserve">
+    <value>Willkommen bei Wunschbox</value>
+  </data>
   <data name="CancelButton" xml:space="preserve">
     <value>Abbrechen</value>
   </data>

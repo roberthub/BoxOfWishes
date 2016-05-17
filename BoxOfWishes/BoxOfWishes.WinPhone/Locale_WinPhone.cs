@@ -35,8 +35,8 @@ namespace BoxOfWishes
             //{
             //    ci = new System.Globalization.CultureInfo(GetCurrentCultureInfo());
             //}
-            Console.WriteLine("culture: "+Thread.CurrentThread.CurrentCulture);
-            Console.WriteLine("ui:      " + Thread.CurrentThread.CurrentUICulture);
+            //Console.WriteLine("culture: "+Thread.CurrentThread.CurrentCulture);
+            //Console.WriteLine("ui:      " + Thread.CurrentThread.CurrentUICulture);
             //Thread.CurrentThread.CurrentCulture = ci;
             //Thread.CurrentThread.CurrentUICulture = ci;
             

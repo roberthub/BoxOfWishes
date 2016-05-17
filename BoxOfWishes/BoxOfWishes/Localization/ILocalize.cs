@@ -1,8 +1,11 @@
-﻿namespace BoxOfWishes.Localization
+﻿using System;
+using System.Globalization;
+
+namespace BoxOfWishes.Localization
 {
     public interface ILocalize
 	{
-	    string GetCurrentCultureInfo();
+        CultureInfo GetCurrentCultureInfo();
 
 		void SetLocale();
 	}

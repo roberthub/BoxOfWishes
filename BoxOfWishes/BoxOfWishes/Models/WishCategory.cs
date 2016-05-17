@@ -3,7 +3,7 @@ using SQLite.Net.Attributes;
 
 namespace BoxOfWishes.Models
 {
-    public class WishCategory
+    public class WishCategory : IBOWItem
     {
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
@@ -14,6 +14,9 @@ namespace BoxOfWishes.Models
         public string Value { get; set; }
         public bool active { get; set; }
         public DateTime ValidUntil { get; set; }
-        
+
+        public string GetTableName() { return "WishCategory"; }
+
+        public int GetPrimaryKey() { return Id; }
     }
 }

@@ -5,14 +5,14 @@ using System.Resources;
 using System.Globalization;
 using System.Reflection;
 
-namespace UsingResxLocalization
+namespace BoxOfWishes.Localization
 {
     // You exclude the 'Extension' suffix when using in Xaml markup
     [ContentProperty ("Text")]
     public class TranslateExtension : IMarkupExtension
     {
         readonly CultureInfo ci;
-        const string ResourceId = "UsingResxLocalization.Resx.AppResources";
+        const string ResourceId = "BoxOfWishes.Localization.AppResources";
 
         public TranslateExtension() 
         {

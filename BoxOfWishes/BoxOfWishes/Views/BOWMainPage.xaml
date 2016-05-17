@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BoxOfWishes.Views.BOWMainPage"
+             xmlns:bown="clr-namespace:BoxOfWishes.Localization;assembly=BoxOfWishes">
+      <StackLayout>
+       <StackLayout.Children> 
+        <Label Text= "{bown:Translate BOWInfoLabel}"
+               IsVisible="True" 
+               Opacity="0.75" 
+               VerticalOptions="CenterAndExpand" 
+               TextColor="White" 
+               BackgroundColor="#21790D" 
+               FontSize="Large" FontAttributes="Bold,Italic" /> 
+      </StackLayout.Children> 
+      </StackLayout>
+</ContentPage>

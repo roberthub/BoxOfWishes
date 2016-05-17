@@ -40,7 +40,7 @@ namespace BoxOfWishes.Localization {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WishBox.Localization.AppResources", typeof(AppResources).GetTypeInfo().Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("BoxOfWishes.Localization.AppResources", typeof(AppResources).GetTypeInfo().Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -76,6 +76,15 @@ namespace BoxOfWishes.Localization {
         internal static string AddressPlaceHolder {
             get {
                 return ResourceManager.GetString("AddressPlaceHolder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Welcome to Box Of Wishes App.
+        /// </summary>
+        internal static string BOWInfoLabel {
+            get {
+                return ResourceManager.GetString("BOWInfoLabel", resourceCulture);
             }
         }
         
@@ -184,6 +193,15 @@ namespace BoxOfWishes.Localization {
         internal static string NameLabel {
             get {
                 return ResourceManager.GetString("NameLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Register.
+        /// </summary>
+        internal static string RegisterButton {
+            get {
+                return ResourceManager.GetString("RegisterButton", resourceCulture);
             }
         }
         

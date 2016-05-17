@@ -56,7 +56,7 @@ namespace BoxOfWishes.Views
             var countryLabel = new Label(); // no Text! localized later
             var countryEntry = new Entry();
             countryEntry.SetBinding(Entry.TextProperty, "Country");
-
+            
 
             var saveButton = new Button(); // no Text! localized later
             saveButton.Clicked += (sender, e) =>

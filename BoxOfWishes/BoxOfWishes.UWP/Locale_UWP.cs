@@ -1,5 +1,6 @@
 using Xamarin.Forms;
 using System.Threading;
+using System.Globalization;
 using BoxOfWishes.Localization;
 
 [assembly: Dependency(typeof(BoxOfWishes.Locale_UWP))]
@@ -11,9 +12,9 @@ namespace BoxOfWishes
         /// <remarks>
         /// Not sure if we can cache this info rather than querying every time
         /// </remarks>
-        public string GetCurrentCultureInfo()
+        public CultureInfo GetCurrentCultureInfo()
         {
-            return System.Globalization.CultureInfo.CurrentUICulture.Name;
+            return System.Globalization.CultureInfo.CurrentUICulture;
         }
 
 
@@ -29,8 +30,8 @@ namespace BoxOfWishes
             //{
             //    ci = new System.Globalization.CultureInfo(GetCurrentCultureInfo());
             //}
-            Console.WriteLine("culture: "+ System.Globalization.CultureInfo.CurrentCulture.Name);
-            Console.WriteLine("ui:      " + System.Globalization.CultureInfo.CurrentUICulture.Name);
+            ////Console.WriteLine("culture: "+ System.Globalization.CultureInfo.CurrentCulture.Name);
+            ////Console.WriteLine("ui:      " + System.Globalization.CultureInfo.CurrentUICulture.Name);
             //Thread.CurrentThread.CurrentCulture = ci;
             //Thread.CurrentThread.CurrentUICulture = ci;
             

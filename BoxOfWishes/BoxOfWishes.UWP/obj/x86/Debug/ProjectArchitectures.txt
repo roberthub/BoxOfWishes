@@ -1,0 +1,2 @@
+C:\Projects\Mobile Apps\BoxOfWishes\BoxOfWishes\BoxOfWishes.UWP\BoxOfWishes.UWP.csproj;x86
+C:\Projects\Mobile Apps\BoxOfWishes\BoxOfWishes\BoxOfWishes\BoxOfWishes.csproj;neutral

@@ -38,7 +38,7 @@
     <Compile Include="App.cs" />
     <Compile Include="Data\BowdbEvents.cs" />
     <Compile Include="Data\BOWdbGroups.cs" />
-    <Compile Include="ILocalize.cs" />
+    <Compile Include="Localization\ILocalize.cs" />
     <Compile Include="Localization\AppResources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -57,6 +57,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AppResources.fr.resx</DependentUpon>
     </Compile>
+    <Compile Include="Localization\TranslateExtension.cs" />
+    <Compile Include="Localize.cs" />
     <Compile Include="Models\Event.cs" />
     <Compile Include="Models\Group.cs" />
     <Compile Include="Models\IBOWItem.cs" />
@@ -68,6 +70,9 @@
     <Compile Include="Models\WishCategory.cs" />
     <Compile Include="Models\MyWishList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\BOWMainPage.xaml.cs">
+      <DependentUpon>BOWMainPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\UserRegisterPage.cs" />
     <Compile Include="Views\WishCategoryPage.cs" />
     <Compile Include="Views\WishMainPage.cs" />
@@ -105,6 +110,12 @@
     <EmbeddedResource Include="Localization\AppResources.fr.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResources.fr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\BOWMainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />

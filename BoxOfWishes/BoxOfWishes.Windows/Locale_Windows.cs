@@ -12,30 +12,15 @@ namespace BoxOfWishes
         /// </remarks>
         public string GetCurrentCultureInfo()
         {
-            var lang = Thread.CurrentThread.CurrentUICulture.Name;
-            var culture = Thread.CurrentThread.CurrentCulture.Name;
-            
-        
-            return lang;
+           return System.Globalization.CultureInfo.CurrentUICulture.Name;
         }
 
 
         public void SetLocale()
         {
            
-            //System.Globalization.CultureInfo ci;
-            //try
-            //{
-            //    ci = new System.Globalization.CultureInfo(netLocale);
-            //}
-            //catch
-            //{
-            //    ci = new System.Globalization.CultureInfo(GetCurrentCultureInfo());
-            //}
-            Console.WriteLine("culture: "+Thread.CurrentThread.CurrentCulture);
-            Console.WriteLine("ui:      " + Thread.CurrentThread.CurrentUICulture);
-            //Thread.CurrentThread.CurrentCulture = ci;
-            //Thread.CurrentThread.CurrentUICulture = ci;
-        }
+          ////Console.WriteLine("culture: "+Thread.CurrentThread.CurrentCulture);
+          ////Console.WriteLine("ui:      " + Thread.CurrentThread.CurrentUICulture);
+         }
     }
 }

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars></Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>C:\Projects\Mobile Apps\BoxOfWishes\BoxOfWishes\BoxOfWishes.Droid\obj\Debug\__library_projects__\Cirrious.CrossCore.Droid\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Projects\Mobile Apps\BoxOfWishes\BoxOfWishes\BoxOfWishes.Droid\obj\Debug\__library_projects__\Cirrious.MvvmCross.Binding.Droid\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Projects\Mobile Apps\BoxOfWishes\BoxOfWishes\BoxOfWishes.Droid\obj\Debug\__library_projects__\Cirrious.MvvmCross.Community.Plugins.Sqlite.Droid\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Projects\Mobile Apps\BoxOfWishes\BoxOfWishes\BoxOfWishes.Droid\obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Projects\Mobile Apps\BoxOfWishes\BoxOfWishes\BoxOfWishes.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Projects\Mobile Apps\BoxOfWishes\BoxOfWishes\BoxOfWishes.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>C:\Projects\Mobile Apps\BoxOfWishes\BoxOfWishes\BoxOfWishes.Droid\obj\Debug\__library_projects__\Cirrious.CrossCore.Droid\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>C:\Projects\Mobile Apps\BoxOfWishes\BoxOfWishes\BoxOfWishes.Droid\obj\Debug\__library_projects__\Cirrious.MvvmCross.Binding.Droid\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>C:\Projects\Mobile Apps\BoxOfWishes\BoxOfWishes\BoxOfWishes.Droid\obj\Debug\__library_projects__\Cirrious.MvvmCross.Community.Plugins.Sqlite.Droid\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>C:\Projects\Mobile Apps\BoxOfWishes\BoxOfWishes\BoxOfWishes.Droid\obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>C:\Projects\Mobile Apps\BoxOfWishes\BoxOfWishes\BoxOfWishes.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>C:\Projects\Mobile Apps\BoxOfWishes\BoxOfWishes\BoxOfWishes.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>C:\Projects\Mobile Apps\BoxOfWishes\BoxOfWishes\BoxOfWishes.Droid\obj\Debug\__library_projects__\Cirrious.CrossCore.Droid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Projects\Mobile Apps\BoxOfWishes\BoxOfWishes\BoxOfWishes.Droid\obj\Debug\__library_projects__\Cirrious.MvvmCross.Binding.Droid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Projects\Mobile Apps\BoxOfWishes\BoxOfWishes\BoxOfWishes.Droid\obj\Debug\__library_projects__\Cirrious.MvvmCross.Community.Plugins.Sqlite.Droid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Projects\Mobile Apps\BoxOfWishes\BoxOfWishes\BoxOfWishes.Droid\obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Projects\Mobile Apps\BoxOfWishes\BoxOfWishes\BoxOfWishes.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Projects\Mobile Apps\BoxOfWishes\BoxOfWishes\BoxOfWishes.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>

@@ -15,11 +15,14 @@ namespace BoxOfWishes.Models
         WS_BLOCKED,
         WS_ARCHIVED
     }
-
+    /// <summary>
+    /// Confirmed Wish from the person offering the wish
+    /// </summary>
     public class Wish
     {
         public int WishID { get; set; }
         public string WishName { get; set; }
+        public string Description { get; set; }
         public int CategoryId { get; set; }
         public string WishBox { get; set; }
         public string OfferedBy { get; set; }

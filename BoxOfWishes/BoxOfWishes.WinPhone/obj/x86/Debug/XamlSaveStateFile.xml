@@ -1,5 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
+    <ReferenceAssembly PathName="c:\projects\mobile apps\boxofwishes\boxofwishes\boxofwishes\bin\debug\boxofwishes.dll" HashGuid="1ea222d9-060f-1dd8-2bc5-de12ad078393" />
     <ReferenceAssembly PathName="c:\projects\mobile apps\boxofwishes\packages\sqlite.net.core-pcl.3.1.1\lib\portable-win8+net45+wp8+wpa81+monoandroid1+monotouch1\sqlite.net.dll" HashGuid="2223cbf7-68d4-e5e4-e5e4-a19696ad83b6" />
     <ReferenceAssembly PathName="c:\projects\mobile apps\boxofwishes\packages\sqlite.net-pcl.3.1.1\lib\windowsphone8\x86\sqlite.net.platform.windowsphone8.dll" HashGuid="6e3e1e80-9fa4-56e0-8d2a-2048380d87d6" />
     <ReferenceAssembly PathName="c:\projects\mobile apps\boxofwishes\packages\xamarin.forms.2.2.0.31\lib\wpa81\xamarin.forms.core.dll" HashGuid="2a418b72-55c1-19a8-a363-4b8c348fbee0" />

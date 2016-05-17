@@ -6,6 +6,7 @@ using System.Globalization;
 
 using BoxOfWishes.Data;
 using BoxOfWishes.Localization;
+using BoxOfWishes.Views;
 
 namespace BoxOfWishes
 {
@@ -21,10 +22,12 @@ namespace BoxOfWishes
 
             if (Device.OS != TargetPlatform.WinPhone)
             {
-                var netLanguage = DependencyService.Get<ILocalize>().GetCurrentCultureInfo();
-                AppResources.Culture = new CultureInfo(netLanguage);
+                //var netLanguage = DependencyService.Get<ILocalize>().GetCurrentCultureInfo();
+                //AppResources.Culture = new CultureInfo(netLanguage);
+                DependencyService.Get<ILocalize>().SetLocale();
             }
-            MainPage = new NavigationPage(new WishMainPage());
+            MainPage = new NavigationPage(new BOWMainPage());
+           // MainPage = new NavigationPage(new UserRegisterPage());
         }
 
         public static BOWDatabase Database

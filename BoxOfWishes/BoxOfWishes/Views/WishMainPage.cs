@@ -7,23 +7,23 @@ namespace BoxOfWishes
     {
         public WishMainPage()
         {
-            ListView listView;
-            listView = new ListView();
-            listView.ItemTemplate = new DataTemplate
-                    (typeof(WishesItemCell));
-            listView.ItemSelected += (sender, e) =>
-            {
-                var todoItem = (TodoItem)e.SelectedItem;
-                var todoPage = new TodoItemPage();
-                todoPage.BindingContext = todoItem;
+            //ListView listView;
+            //listView = new ListView();
+            //listView.ItemTemplate = new DataTemplate
+            //        (typeof(WishesItemCell));
+            //listView.ItemSelected += (sender, e) =>
+            //{
+            //    var todoItem = (TodoItem)e.SelectedItem;
+            //    var todoPage = new TodoItemPage();
+            //    todoPage.BindingContext = todoItem;
 
-                ((App)App.Current).ResumeAtWishesId = todoItem.ID;
-                Debug.WriteLine("setting ResumeAtWishesId = " + todoItem.ID);
+            //    ((App)App.Current).ResumeAtWishesId = todoItem.ID;
+            //    Debug.WriteLine("setting ResumeAtWishesId = " + todoItem.ID);
 
-                Navigation.PushAsync(todoPage);
+            //    Navigation.PushAsync(todoPage);
 
-            };
-          
+            //};
+
         }
     }
 }

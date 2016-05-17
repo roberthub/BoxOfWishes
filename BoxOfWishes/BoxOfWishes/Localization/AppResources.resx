@@ -123,6 +123,9 @@
   <data name="AddressPlaceHolder" xml:space="preserve">
     <value>Enter address here</value>
   </data>
+  <data name="BOWInfoLabel" xml:space="preserve">
+    <value>Welcome to Box Of Wishes App</value>
+  </data>
   <data name="CancelButton" xml:space="preserve">
     <value>Cancel</value>
   </data>
@@ -158,6 +161,9 @@
   </data>
   <data name="NameLabel" xml:space="preserve">
     <value>Name</value>
+  </data>
+  <data name="RegisterButton" xml:space="preserve">
+    <value>Register</value>
   </data>
   <data name="SaveButton" xml:space="preserve">
     <value>Save</value>

@@ -1,0 +1,3 @@
+C:\Projects\Mobile Apps\BoxOfWishes\BoxOfWishes\BoxOfWishes.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Projects\Mobile Apps\BoxOfWishes\BoxOfWishes\BoxOfWishes.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Projects\Mobile Apps\BoxOfWishes\BoxOfWishes\BoxOfWishes.iOS\obj\iPhoneSimulator\Debug\BoxOfWishes.iOS.csprojResolveAssemblyReference.cache
